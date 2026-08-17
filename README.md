@@ -44,3 +44,46 @@ user dashboard, OTP authentication, and multilingual support.
 ---
 
 ## Architecture
+
+tour-booking-app/
+├── frontEnd/
+│ └── src/
+│ ├── components/
+│ ├── pages/
+│ ├── context/ # AuthContext
+│ ├── api/ # axiosInstance
+│ └── styles/
+└── server/
+├── controllers/
+├── middleware/
+├── models/
+├── routes/
+└── utils/
+├── cloudinary.js
+├── sendOtp.js
+└── validateEmailDomain.js
+
+---
+
+## Run Locally
+
+```bash
+# Clone repository
+git clone https://github.com/zarifull/tour-booking-app.git
+
+# Frontend
+cd frontEnd
+npm install
+npm start
+
+# Backend
+cd ../server
+npm install
+npm run dev
+```
+
+---
+
+## Deployments
+
+77 commits · 39 production deployments via Render & Netlify
