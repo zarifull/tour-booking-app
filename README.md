@@ -45,23 +45,27 @@ user dashboard, OTP authentication, and multilingual support.
 
 ## Architecture
 
+```
 tour-booking-app/
+│
 ├── frontEnd/
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ ├── context/ # AuthContext
-│ ├── api/ # axiosInstance
-│ └── styles/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── context/          # AuthContext
+│       ├── api/              # axiosInstance
+│       └── styles/
+│
 └── server/
-├── controllers/
-├── middleware/
-├── models/
-├── routes/
-└── utils/
-├── cloudinary.js
-├── sendOtp.js
-└── validateEmailDomain.js
+    ├── controllers/
+    ├── middleware/
+    ├── models/
+    ├── routes/
+    └── utils/
+          ├── cloudinary.js
+          ├── sendOtp.js
+          └── validateEmailDomain.js
+```
 
 ---
 
